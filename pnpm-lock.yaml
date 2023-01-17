@@ -6,6 +6,8 @@ specifiers:
   autoprefixer: ^10.4.13
   nuxt: ^3.0.0
   postcss: ^8.4.21
+  prettier: ^2.8.3
+  prettier-plugin-tailwindcss: ^0.2.1
   tailwindcss: ^3.2.4
 
 dependencies:
@@ -16,6 +18,8 @@ devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.21
   nuxt: 3.0.0
   postcss: 8.4.21
+  prettier: 2.8.3
+  prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.3
   tailwindcss: 3.2.4_postcss@8.4.21
 
 packages:
@@ -3755,6 +3759,21 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: true
+
+  /prettier-plugin-tailwindcss/0.2.1_prettier@2.8.3:
+    resolution: {integrity: sha512-aIO8IguumORyRsmT+E7JfJ3A9FEoyhqZR7Au7TBOege3VZkgMvHJMkufeYp4zjnDK2iq4ktkvGMNOQR9T8lisQ==}
+    engines: {node: '>=12.17.0'}
+    peerDependencies:
+      prettier: '>=2.2.0'
+    dependencies:
+      prettier: 2.8.3
+    dev: true
+
+  /prettier/2.8.3:
+    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /pretty-bytes/6.0.0:
